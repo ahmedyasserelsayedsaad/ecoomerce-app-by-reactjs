@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgb(225, 205, 243);
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.navbar .mynav{
+   
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+    
+    
+    
+}
+.navbar .navbar-brand::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-top:5px solid black;
+    border-left: 5px solid yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.navbar .navbar-brand::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-bottom:5px solid black;
+    border-right: 5px solid yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
